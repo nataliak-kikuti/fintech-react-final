@@ -70,7 +70,8 @@ frontend/
 ```
 
 
-```BACKEND (Spring Boot)
+### BACKEND (Spring Boot)
+```
 backend/
 ├── src/
 │   ├── main/
