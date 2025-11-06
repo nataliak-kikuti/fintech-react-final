@@ -174,9 +174,9 @@ cd ../frontend
 npm install
 npm start
 ```
-### Credenciais de Teste
--** Email: admin@admin.com
--** Senha: admin
+### Credenciais de Teste:
+- Email: admin@admin.com
+- Senha: admin
 
 Endpoints da API
 
@@ -217,22 +217,16 @@ Meta Financeira:
   "usuario": { "id": 1 }
 }
 ```
-Testes
+## Testes
 
-Inicie backend e frontend conforme instruções.
-
+** Inicie backend e frontend conforme instruções.**
 Acesse http://localhost:3000.
 
 Faça login com usuário de teste.
-
 Navegue pelas páginas e teste funcionalidades (adicionar receita, despesa, metas, etc.).
-
 Solução de Problemas
-
 Erro de conexão com o banco: Verifique credenciais e firewall.
-
 Erro CORS: Configure @CrossOrigin(origins = "http://localhost:3000") no backend.
-
 Porta em uso: Altere server.port no backend ou defina PORT=3001 no frontend.
 
 Scripts Úteis
