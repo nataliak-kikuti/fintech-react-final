@@ -175,8 +175,8 @@ npm install
 npm start
 ```
 ### Credenciais de Teste
-# Email: admin@admin.com
-# Senha: admin
+### Email: admin@admin.com
+### Senha: admin
 
 Endpoints da API
 
