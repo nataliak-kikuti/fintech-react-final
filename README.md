@@ -153,25 +153,27 @@ backend/
 - IDE de sua preferência  
 
 ### Backend
+```
 git clone https://github.com/nataliak-kikuti/fintech-react-final
 cd fintech/backend
 mvn clean install
 mvn spring-boot:run
-
+```
 
 ## Configurar application.properties com credenciais Oracle:
-
+```
 spring.datasource.url=jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL
 spring.datasource.username=RM565156
 spring.datasource.password=fiap25
 spring.jpa.hibernate.ddl-auto=update
 server.port=8080
-
+```
 ## Frontend
+```
 cd ../frontend
 npm install
 npm start
-
+```
 ### Credenciais de Teste
 # Email: admin@admin.com
 # Senha: admin
@@ -193,7 +195,7 @@ GET /api/categorias / GET /api/categorias/tipo/{tipo}
 Modelos de Dados
 
 Receita:
-
+```
 {
   "descricao": "Salário Mensal",
   "valor": 5000.00,
@@ -202,9 +204,10 @@ Receita:
   "usuario": { "id": 1 },
   "type": "receita"
 }
-
+```
 
 Meta Financeira:
+```
 
 {
   "nomeMeta": "Viagem de Férias",
@@ -213,7 +216,7 @@ Meta Financeira:
   "dataAlvo": "2025-12-31",
   "usuario": { "id": 1 }
 }
-
+```
 Testes
 
 Inicie backend e frontend conforme instruções.
