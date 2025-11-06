@@ -160,24 +160,13 @@ mvn clean install
 mvn spring-boot:run
 ```
 
-## Configurar application.properties com credenciais Oracle:
-```
-spring.datasource.url=jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL
-spring.datasource.username=RM565156
-spring.datasource.password=fiap25
-spring.jpa.hibernate.ddl-auto=update
-server.port=8080
-```
+
 ## Frontend
 ```
 cd ../frontend
 npm install
 npm start
 ```
-### Credenciais de Teste:
-- Email: admin@admin.com
-- Senha: admin
-
 Endpoints da API
 
 Autenticação:
