@@ -153,8 +153,8 @@ backend/
 - IDE de sua preferência  
 
 ### Backend
-```bash
-git clone <url-do-repositorio>
+
+git clone https://github.com/nataliak-kikuti/fintech-react-final
 cd fintech/backend
 mvn clean install
 mvn spring-boot:run
