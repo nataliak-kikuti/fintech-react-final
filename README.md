@@ -175,7 +175,6 @@ npm start
 Credenciais de Teste
 
 Email: admin@admin.com
-
 Senha: admin
 
 Endpoints da API
