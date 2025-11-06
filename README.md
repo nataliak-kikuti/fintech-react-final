@@ -234,7 +234,5 @@ npm install
 # Iniciar desenvolvimento
 npm start
 
-# Build para produção
-npm run build
 
 
